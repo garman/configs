@@ -1,0 +1,14 @@
+[user]
+	name = garman
+	email = danielrgarman@gmail.com
+[credential]
+	helper = osxkeychain
+[alias]
+	co = checkout
+  st = status
+ls = log --graph --color --pretty=\"format:%C(yellow)%h%Creset%C(green)%d%Creset %s %Cblue[%aN]%Creset %C(magenta){%cr}%Creset\"
+la = log --graph --color --pretty=\"format:%C(yellow)%h%Creset%C(green)%d%Creset %s %Cblue[%aN]%Creset %C(magenta){%cr}%Creset\" --all
+[github]
+	user = garman
+[core]
+	editor = /usr/bin/vim
